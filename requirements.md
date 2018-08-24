@@ -541,7 +541,7 @@ lightning strikes, power surges, and microwave ovens, interfere with the
 transmission of data. The good news is that such bit errors are fairly
 rare, affecting on average only one out of every 10$$^6$$ to 10$$^7$$
 bits on a typical copper-based cable and one out of every 10$$^{12}$$
-to 10^$${14}$$ bits on a typical optical fiber. As we will see, there are
+to 10$$^{14}$$ bits on a typical optical fiber. As we will see, there are
 techniques that detect these bit errors with high probability. Once
 detected, it is sometimes possible to correct for such errors—if we
 know which bit or bits are corrupted, we can simply flip them—while in
@@ -556,7 +556,7 @@ and therefore has to be discarded. A more likely reason, however, is
 that one of the nodes that has to handle the packet—for example, a
 switch that is forwarding it from one link to another—is so overloaded
 that it has no place to store the packet and therefore is forced to drop
-it. This is the problem of congestion mentioned in . Less commonly, the
+it. This is the problem of congestion just discussed. Less commonly, the
 software running on one of the nodes that handles the packet makes a
 mistake. For example, it might incorrectly forward a packet out on the
 wrong link, so that the packet never finds its way to the ultimate
@@ -615,4 +615,4 @@ devices should be "plug-and-play"—a goal that has proven quite
 elusive. We will discuss some ways that this requirement has been
 addressed in part later on, but it is worth noting for now that
 improving the manageability of networks remains an important area of
-current research.
+current research, if not *the* central challenge in networking today.

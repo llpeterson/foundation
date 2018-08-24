@@ -182,17 +182,17 @@ network to justify this waste.
 ## Delay x Bandwidth Product
 
 It is also useful to talk about the product of these two metrics, often
-called the *delay x bandwidth product*. Intuitively, if we think of a
-channel between a pair of processes as a hollow pipe (see
+called the *delay* $$\times$$ *bandwidth product*. Intuitively, if we
+think of a channel between a pair of processes as a hollow pipe (see
 [Figure 3](#pipe)), where the latency corresponds to the length of the
-pipe and the bandwidth gives the diameter of the pipe, then the *delay
-x bandwidth* product gives the volume of the pipe—the maximum number
-of bits that could be in transit through the pipe at any given instant.
-Said another way, if latency (measured in time) corresponds to the
-length of the pipe, then given the width of each bit (also measured in
-time) you can calculate how many bits fit in the pipe. For example, a
-transcontinental channel with a one-way latency of 50 ms and a
-bandwidth of 45 Mbps is able to hold
+pipe and the bandwidth gives the diameter of the pipe, then the delay
+$$\times$$ bandwidth product gives the volume of the pipe—the maximum
+number of bits that could be in transit through the pipe at any given
+instant. Said another way, if latency (measured in time) corresponds
+to the length of the pipe, then given the width of each bit (also
+measured in time) you can calculate how many bits fit in the pipe. For
+example, a transcontinental channel with a one-way latency of 50 ms
+and a bandwidth of 45 Mbps is able to hold
 
 $$
 50 \times 10^{-3}sec \times 45 \times 10^6\ bits/sec = 2.25 \times 10^6\ bits
@@ -208,28 +208,29 @@ early 1980s could hold.
 	<figcaption>Network as a pipe.</figcaption>
 </figure>
 
-The *delay x bandwidth* product is important to know
+The delay $$\times$$ bandwidth product is important to know
 when constructing high-performance networks because it corresponds to
 how many bits the sender must transmit before the first bit arrives at
 the receiver. If the sender is expecting the receiver to somehow signal
 that bits are starting to arrive, and it takes another channel latency
 for this signal to propagate back to the sender, then the sender can
-send up one *RTT x bandwidth* worth of data before hearing from the
-receiver that all is well. The bits in the pipe are said to be "in
+send up one *RTT* $$\times$$ *bandwidth* worth of data before hearing
+from the receiver that all is well. The bits in the pipe are said to be "in
 flight," which means that if the receiver tells the sender to stop
-transmitting it might receive up to one *RTT x bandwidth's* worth of
-data before the sender manages to respond. In our example above, that
-amount corresponds to 5.5 $$\times$$ 10$$^6$$ bits (671 KB) of
-data. On the other hand, if the sender does not fill the pipe—sends a
-whole *RTT x bandwidth* product's worth of data before it stops to
-wait for a signal—the sender will not fully utilize the network.
+transmitting it might receive up to one RTT $$\times$$ bandwidth's
+worth of data before the sender manages to respond. In our example
+above, that amount corresponds to 5.5 $$\times$$ 10$$^6$$ bits
+(671 KB) of data. On the other hand, if the sender does not fill the
+pipe—sends a whole RTT $$\times$$ bandwidth product's worth of data
+before it stops to wait for a signal—the sender will not fully utilize
+the network.
 
 Note that most of the time we are interested in the RTT scenario, which
-we simply refer to as the *delay x bandwidth product*, without
+we simply refer to as the delay $$\times$$ bandwidth product, without
 explicitly saying that "delay" is the RTT (i.e., the one-way delay by
-two). Usually, whether the "delay" in *delay x bandwidth* means
+two). Usually, whether the "delay" in delay $$\times$$ bandwidth means
 one-way latency or RTT is made clear by the context.
-[Table 1](#delay-bw) shows some examples of  *RTT x  bandwidth*
+[Table 1](#delay-bw) shows some examples of  RTT $$\times$$ bandwidth
 products for some typical network links.
 
 <a id="delay-bw"></a>
@@ -308,7 +309,7 @@ this section, but also any additional time spent requesting or setting
 up the transfer. Generally, we represent this relationship as
 
 {% center %}
-TransferTime = RTT + 1/Bandwidth $$\times$$ TransferSize
+TransferTime = RTT + 1/Bandwidth x TransferSize
 {% endcenter %}
 
 We use in this calculation to account for a request message being sent
