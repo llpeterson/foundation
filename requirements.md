@@ -75,8 +75,8 @@ physical medium, such as a coaxial cable or an optical fiber. We call
 such a physical medium a *link*, and we often refer to the computers it
 connects as *nodes*. (Sometimes a node is a more specialized piece of
 hardware rather than a computer, but we overlook that distinction for
-the purposes of this discussion.) As illustrated in in the
-[Figure 1](#direct) below, physical links are sometimes limited to a
+the purposes of this discussion.) As illustrated in in
+[Figure 1](#direct), physical links are sometimes limited to a
 pair of nodes (such a link is said to be *point-to-point*), while in
 other cases more than two nodes may share a single physical link (such
 a link is said to be *multiple-access*). Wireless links, such as those
