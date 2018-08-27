@@ -127,10 +127,10 @@ service (the peer interface). This situation is illustrated in
 </figure>
  
 Except at the hardware level, where peers directly communicate with each
-other over a link, peer-to-peer communication is indirect—each
+other over a physical mediuk, peer-to-peer communication is indirect—each
 protocol communicates with its peer by passing messages to some
 lower-level protocol, which in turn delivers the message to *its* peer.
-In addition, there are potentially multiple protocols at any given
+In addition, there are potentially more than one protocol at any given
 level, each providing a different communication service. We therefore
 represent the suite of protocols that make up a network system with a
 *protocol graph*. The nodes of the graph correspond to protocols, and
@@ -381,7 +381,7 @@ such as HTTP, FTP, Telnet (remote login), and the Simple Mail Transfer
 Protocol (SMTP), that enable the interoperation of popular applications.
 To understand the difference between an application layer protocol and
 an application, think of all the different World Wide Web browsers that
-are or have been available (e.g., Firefox, Safari, Netscape, Mosaic,
+are or have been available (e.g., Firefox, Chrome, Safari, Netscape, Mosaic,
 Internet Explorer). There is a similarly large number of different
 implementations of web servers. The reason that you can use any one of
 these application programs to access a particular site on the Web is

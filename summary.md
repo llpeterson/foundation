@@ -50,7 +50,7 @@ often plays a critical role in protocol design.
 
 Computer networks are not the first communication-oriented technology to
 have found their way into the everyday fabric of our society. For
-example, the early part of this century saw the introduction of the
+example, the early part of the last century saw the introduction of the
 telephone, and then during the 1950s television became widespread. When
 considering the future of networking—how widely it will spread and how
 we will use it—it is instructive to study this history. Our first

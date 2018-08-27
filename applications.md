@@ -1,11 +1,12 @@
 # {{ page.title }}
 
 Most people know the Internet through its applications: the World Wide
-Web, email, online social networking, streaming audio and video, instant
-messaging, file-sharing, to name just a few examples. That is to say, we
-interact with the Internet as *users* of the network. Internet users
-represent the largest class of people who interact with the Internet in
-some way, but there are several other important constituencies.
+Web, email, social media, streaming music or movies,
+videoconferencing, instant messaging, file-sharing, to name just a few
+examples. That is to say, we interact with the Internet as *users* of
+the network. Internet users represent the largest class of people who
+interact with the Internet in some way, but there are several other
+important constituencies.
 
 There is the group of people who *create* the applications—a group
 that has greatly expanded in recent years as powerful programming
@@ -39,8 +40,7 @@ The World Wide Web is the Internet application that catapulted the
 Internet from a somewhat obscure tool used mostly by scientists and
 engineers to the mainstream phenomenon that it is today. The Web itself
 has become such a powerful platform that many people confuse it with the
-Internet (as in "the Interwebs"), and it's a bit of a stretch to say
-that the Web is a single application.
+Internet, and it's a bit of a stretch to say that the Web is a single application.
 
 In its basic form, the Web presents an intuitively simple interface.
 Users view pages full of textual and graphical objects and click on
@@ -84,7 +84,7 @@ Internet radio use this technology. While we frequently start at a
 website to initiate a streaming session, the delivery of audio and video
 has some important differences from fetching a simple web page of text
 and images. For example, you often don't want to download an entire
-video file—a process that might take minutes to hours—before
+video file—a process that might take a few minutes—before
 watching the first scene. Streaming audio and video implies a more
 timely transfer of messages from sender to receiver, and the receiver
 displays the video or plays the audio pretty much as it arrives.
@@ -127,9 +127,9 @@ direction.
 </figure>
 
 Videoconferencing tools that run over the Internet have been around now
-since the early 1990s but have achieved much more widespread use in the
-last couple of years, as higher network speeds and more powerful
-computers have become commonplace. An example of one such system is
+since the early 1990s but have achieved widespread use in the
+last few years, with several commercial products on the market
+An example of one such system is
 shown in [Figure 1](#vic). Just as downloading a web page
 involves a bit more than meets the eye, so too with video applications.
 Fitting the video content into a relatively low bandwidth network, for
@@ -145,7 +145,7 @@ applications that can be built on top of the Internet and hint at the
 complexity of the Internet's design. Later in the book we will develop a
 more complete taxonomy of application types to help guide our discussion
 of key design decisions as we seek to build, operate, and use networks
-that such a wide range of applications. In Chapter 9, the book concludes
+that such a wide range of applications. The book concludes
 by revisiting these two specific applications, as well as several others
 that illustrate the breadth of what is possible on today's Internet.
 

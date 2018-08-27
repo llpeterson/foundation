@@ -75,13 +75,13 @@ physical medium, such as a coaxial cable or an optical fiber. We call
 such a physical medium a *link*, and we often refer to the computers it
 connects as *nodes*. (Sometimes a node is a more specialized piece of
 hardware rather than a computer, but we overlook that distinction for
-the purposes of this discussion.) As illustrated in in
+the purposes of this discussion.) As illustrated in
 [Figure 1](#direct), physical links are sometimes limited to a
 pair of nodes (such a link is said to be *point-to-point*), while in
 other cases more than two nodes may share a single physical link (such
 a link is said to be *multiple-access*). Wireless links, such as those
-provided by cellular networks and Wi-Fi networks, are an increasingly
-important class of multiple-access links.  It is often the case
+provided by cellular networks and Wi-Fi networks, are an
+important class of multiple-access links.  It is always the case
 that multiple-access links are limited in size, in terms of both
 the geographical distance they can cover and the number of nodes
 they can connect.
@@ -142,7 +142,7 @@ The cloud in [Figure 2](#psn) distinguishes between
 the nodes on the inside that *implement* the network (they are commonly
 called *switches*, and their primary function is to store and forward
 packets) and the nodes on the outside of the cloud that *use* the
-network (they are commonly called *hosts*, and they support users and
+network (they are traditionally called *hosts*, and they support users and
 run application programs). Also note that the cloud in is one of the
 most important icons of computer networking. In general, we use a
 cloud to denote any type of network, whether it is a single
@@ -344,7 +344,7 @@ certain flows receive a particular share of the link's bandwidth or
 that they never have their packets delayed in the switch for more than
 a certain length of time. A network that attempts to allocate
 bandwidth to particular flows is sometimes said to support
-*quality of service* (QoS), a topic that we return to in Chapter 6.
+*quality of service* (QoS).
 
 Also, notice in [Figure 4](#mux)
 that since the switch has to multiplex three incoming
@@ -368,7 +368,7 @@ statistical multiplexing.
 
 ## Support for Common Services
 
-The previous section outlined the challenges involved in providing
+The previous discussion focused on the challenges involved in providing
 cost-effective connectivity among a group of hosts, but it is overly
 simplistic to view a computer network as simply delivering packets among
 a collection of computers. It is more accurate to think of a network as
@@ -460,7 +460,7 @@ http://portal.acm.org/dl.cfm
 This library has a wide range of searching and browsing features to help
 users find the articles they want, but ultimately much of what it does
 is respond to user requests for files, such as electronic copies of
-journal articles, much like an FTP server.
+journal articles.
 
 Using file access, a digital library, and the two video applications
 described in the introduction (videoconferencing and video on demand) as

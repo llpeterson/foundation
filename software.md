@@ -5,7 +5,7 @@ but a good blueprint is not enough to explain the phenomenal success of
 the Internet: The number of computers connected to the Internet has
 grown exponentially for almost 3 decades (although precise numbers are
 now hard to come by). The number of users of the Internet was estimated
-to be around 1.8 billion in 2009—an impressive percentage of the
+to be around 4.1 billion by the end of 2017—roughly half of the
 world's population.
 
 What explains the success of the Internet? There are certainly many
@@ -14,8 +14,8 @@ has made the Internet such a runaway success is the fact that so much of
 its functionality is provided by software running in general-purpose
 computers. The significance of this is that new functionality can be
 added readily with "just a small matter of programming." As a result,
-new and services—electronic commerce, videoconferencing, and IP
-telephony, to name a few—have been showing up at an incredible pace.
+new applications and services have been showing up at an incredible
+pace.
 
 A related factor is the massive increase in computing power available in
 commodity machines. Although computer networks have always been capable
@@ -23,11 +23,8 @@ in principle of transporting any kind of information, such as digital
 voice samples, digitized images, and so on, this potential was not
 particularly interesting if the computers sending and receiving that
 data were too slow to do anything useful with the information. Virtually
-all of today's computers are capable of playing back digitized voice at
-full speed and can display video at a speed and resolution that are
-useful for some (but by no means all) applications. Thus, today's
-networks are increasingly used to carry multimedia, and their support
-for it will only improve as computing hardware becomes faster.
+all of today's computers are capable of playing back digitized audio
+and video at a speed and resolution that are quite useable.
 
 In the years since the first edition of this book appeared, the writing
 of networked applications has become a much more mainstream activity and
@@ -63,10 +60,16 @@ supported; that is, they have been ported to operating systems other
 than their native system. This is what has happened with the *socket
 interface* originally provided by the Berkeley distribution of Unix,
 which is now supported in virtually all popular operating systems, and
-is the foundation of language-specific interfaces, such as the Java
-socket library. The advantages of industry-wide support for a single API
-are that applications can be easily ported from one OS to another and
-developers can easily write applications for multiple operating systems.
+is the foundation of language-specific interfaces, such as the Java or
+Python socket library. The advantages of industry-wide support for a
+single API are that applications can be easily ported from one OS to
+another and developers can easily write applications for multiple
+operating systems.
+
+> Not wanting to pick sides in a Java-v-Python-v-Go debate, and
+> because it remains the language of choice for network internals, all
+> of the code examples given in this book are written in C and directly
+> use OS-level interfaces.
 
 Before describing the socket interface, it is important to keep two
 concerns separate in your mind. Each protocol provides a certain set of

@@ -5,10 +5,10 @@ network. Like any computer system, however, computer networks are also
 expected to perform well. This is because the effectiveness of
 computations distributed over the network often depends directly on the
 efficiency with which the network delivers the computation's data. While
-the old programming adage "first get it right and then make it fast" is
-valid in many settings, in networking it is usually necessary to "design
-for performance." It is therefore important to understand the various
-factors that impact network performance.
+the old programming adage "first get it right and then make it fast" remains
+true, in networking it is often necessary to "design for performance."
+It is therefore important to understand the various factors that
+impact network performance.
 
 ## Bandwidth and Latency
 
@@ -24,8 +24,8 @@ microsecond ($$\mu$$s) to transmit each bit.
 
 Bandwidth and throughput are subtly different terms. First of all,
 bandwidth is literally a measure of the width of a frequency band. For
-example, a voice-grade telephone line supports a frequency band
-ranging from 300 to 3300 Hz; it is said to have a bandwidth of
+example, legacy voice-grade telephone lines supported a frequency band
+ranging from 300 to 3300 Hz; it was said to have a bandwidth of
 3300 Hz - 300 Hz = 3000 Hz. If you see the word *bandwidth* used in
 a situation in which it is being measured in hertz, then it probably
 refers to the range of signals that can be accommodated.
@@ -47,7 +47,7 @@ Finally, we often talk about the bandwidth *requirements* of an
 application. This is the number of bits per second that it needs to
 transmit over the network to perform acceptably. For some applications,
 this might be "whatever I can get"; for others, it might be some fixed
-number (preferably no more than the available link bandwidth); and for
+number (preferably not more than the available link bandwidth); and for
 others, it might be a number that varies with time. We will provide more
 on this topic later in this section.
 
@@ -171,11 +171,11 @@ referring to the one-way latency or the round-trip time.
 As an aside, computers are becoming so fast that when we connect them to
 networks, it is sometimes useful to think, at least figuratively, in
 terms of *instructions per mile*. Consider what happens when a computer
-that is able to execute 1 billion instructions per second sends a
+that is able to execute 100 billion instructions per second sends a
 message out on a channel with a 100-ms RTT. (To make the math easier,
 assume that the message covers a distance of 5000 miles.) If that
 computer sits idle the full 100 ms waiting for a reply message, then it
-has forfeited the ability to execute 100 million instructions, or 20,000
+has forfeited the ability to execute 10 billion instructions, or 2 million
 instructions per mile. It had better have been worth going over the
 network to justify this waste.
 
@@ -221,13 +221,13 @@ transmitting it might receive up to one RTT $$\times$$ bandwidth's
 worth of data before the sender manages to respond. In our example
 above, that amount corresponds to 5.5 $$\times$$ 10$$^6$$ bits
 (671 KB) of data. On the other hand, if the sender does not fill the
-pipe—sends a whole RTT $$\times$$ bandwidth product's worth of data
-before it stops to wait for a signal—the sender will not fully utilize
-the network.
+pipe—i.e., does not send a whole RTT $$\times$$ bandwidth product's
+worth of data before it stops to wait for a signal—the sender will not
+fully utilize the network.
 
 Note that most of the time we are interested in the RTT scenario, which
 we simply refer to as the delay $$\times$$ bandwidth product, without
-explicitly saying that "delay" is the RTT (i.e., the one-way delay by
+explicitly saying that "delay" is the RTT (i.e., multiply the one-way delay by
 two). Usually, whether the "delay" in delay $$\times$$ bandwidth means
 one-way latency or RTT is made clear by the context.
 [Table 1](#delay-bw) shows some examples of  RTT $$\times$$ bandwidth
@@ -237,7 +237,6 @@ products for some typical network links.
 
 | Link Type | Bandwidth | One-Way Distance | RTT | RTT x Bandwidth |
 |:---:|:---:|:---:|:---:|:---:|
-| Dial-up   | 56 kbps     | 10 km     | 87 $$\mu$$s | 5 bits  |
 | Wireless LAN | 54 Mbps | 50 m | 0.33 $$\mu$$s | 18 bits |
 | Satellite | 45 Mbps | 35,000 km | 230 ms | 10 Mb |
 | Cross-country fiber | 10 Gbps | 4,000 km | 40 ms | 400 Mb |
@@ -248,11 +247,10 @@ products for some typical network links.
 
 ## High-Speed Networks
 
-The bandwidths available on today's networks are increasing at a
-dramatic rate, and there is eternal optimism that network bandwidth will
-continue to improve. This causes network designers to start thinking
-about what happens in the limit or, stated another way, what is the
-impact on network design of having infinite bandwidth available.
+The seeming continual increase in bandwdith causes network designers
+to start thinking about what happens in the limit or, stated another
+way, what is the impact on network design of having infinite bandwidth
+available.
 
 Although high-speed networks bring a dramatic change in the bandwidth
 available to applications, in many respects their impact on how we think
@@ -338,9 +336,9 @@ performance; that is, we have talked in terms of what a given link or
 channel will support. The unstated assumption has been that application
 programs have simple needs—they want as much bandwidth as the network
 can provide. This is certainly true of the aforementioned digital
-library program that is retrieving a 25-MB image; the more bandwidth
-that is available, the faster the program will be able to return the
-image to the user.
+library program that is retrieving a 250-MB image; the more
+bandwidth that is available, the faster the program will be able to
+return the image to the user.
 
 However, some applications are able to state an upper limit on how much
 bandwidth they need. Video applications are a prime example. Suppose one
