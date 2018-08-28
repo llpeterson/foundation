@@ -238,7 +238,7 @@ products for some typical network links.
 | Link Type | Bandwidth | One-Way Distance | RTT | RTT x Bandwidth |
 |:---:|:---:|:---:|:---:|:---:|
 | Wireless LAN | 54 Mbps | 50 m | 0.33 $$\mu$$s | 18 bits |
-| Satellite | 45 Mbps | 35,000 km | 230 ms | 10 Mb |
+| Satellite | 1 Gbps | 35,000 km | 230 ms | 230 Mb |
 | Cross-country fiber | 10 Gbps | 4,000 km | 40 ms | 400 Mb |
 
 {% center %}
