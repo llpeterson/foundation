@@ -33,7 +33,7 @@ general-purpose programmable hardware, and they are not optimized for a
 particular application like making phone calls or delivering television
 signals. Instead, they are able to carry many different types of data,
 and they support a wide, and ever growing, range of applications.
-Today's computer networks have pretty mjch taken over the functions
+Today's computer networks have pretty much taken over the functions
 previously performed by single-use networks. This chapter looks at some
 typical applications of computer networks and discusses the requirements
 that a network designer who wishes to support such applications must be
