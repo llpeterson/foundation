@@ -128,7 +128,7 @@ direction.
 
 Videoconferencing tools that run over the Internet have been around now
 since the early 1990s but have achieved widespread use in the
-last few years, with several commercial products on the market
+last few years, with several commercial products on the market.
 An example of one such system is
 shown in [Figure 1](#vic). Just as downloading a web page
 involves a bit more than meets the eye, so too with video applications.
