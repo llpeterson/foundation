@@ -323,7 +323,7 @@ link, with a decision made on a packet-by-packet basis as to which
 flow's packet to send next. Notice that, if only one flow has data to
 send, then it can send a sequence of packets back-to-back; however,
 should more than one of the flows have data to send, then their packets
-are interleaved on the link, [Figure 4](#mux) depicts a switch multiplexing packets from
+are interleaved on the link. [Figure 4](#mux) depicts a switch multiplexing packets from
 multiple sources onto a single shared link.
 
 The decision as to which packet to send next on a shared link can be
