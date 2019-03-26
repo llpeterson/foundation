@@ -205,16 +205,17 @@ some subset of the other nodes but not all of them, a situation called
 requirement of a network is that it support multicast and broadcast
 addresses.
 
-The main idea to take away from this discussion is that we can define a
-*network* recursively as consisting of two or more nodes connected by a
-physical link, or as two or more networks connected by a node. In other
-words, a network can be constructed from a nesting of networks, where at
-the bottom level, the network is implemented by some physical medium.
-Among the key challenges in providing network connectivity are the
-definition of an address for each node that is reachable on the network
-(including support for broadcast and multicast), and the use of such
-addresses to forward messages toward the appropriate destination
-node(s).
+> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+> The main idea to take away from this discussion is that we can define a
+> *network* recursively as consisting of two or more nodes connected by a
+> physical link, or as two or more networks connected by a node. In other
+> words, a network can be constructed from a nesting of networks, where at
+> the bottom level, the network is implemented by some physical medium.
+> Among the key challenges in providing network connectivity are the
+> definition of an address for each node that is reachable on the network
+> (including support for broadcast and multicast), and the use of such
+> addresses to forward messages toward the appropriate destination
+> node(s).
 
 ## Cost-Effective Resource Sharing
 
@@ -356,15 +357,16 @@ extended period of time, then the switch will eventually run out of
 buffer space, and some packets will have to be dropped. When a switch
 is operating in this state, it is said to be *congested*.
 
-The bottom line is that statistical multiplexing defines a
-cost-effective way for multiple users (e.g., host-to-host flows of data)
-to share network resources (links and nodes) in a fine-grained manner.
-It defines the packet as the granularity with which the links of the
-network are allocated to different flows, with each switch able to
-schedule the use of the physical links it is connected to on a
-per-packet basis. Fairly allocating link capacity to different flows and
-dealing with congestion when it occurs are the key challenges of
-statistical multiplexing.
+> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+> The bottom line is that statistical multiplexing defines a
+> cost-effective way for multiple users (e.g., host-to-host flows of data)
+> to share network resources (links and nodes) in a fine-grained manner.
+> It defines the packet as the granularity with which the links of the
+> network are allocated to different flows, with each switch able to
+> schedule the use of the physical links it is connected to on a
+> per-packet basis. Fairly allocating link capacity to different flows and
+> dealing with congestion when it occurs are the key challenges of
+> statistical multiplexing.
 
 ## Support for Common Services
 
@@ -578,12 +580,13 @@ failed computer and one that is merely slow or, in the case of a link,
 between one that has been cut and one that is very flaky and therefore
 introducing a high number of bit errors.
 
-The key idea to take away from this discussion is that defining useful
-channels involves both understanding the applications' requirements and
-recognizing the limitations of the underlying technology. The challenge
-is to fill in the gap between what the application expects and what the
-underlying technology can provide. This is sometimes called the
-*semantic gap.*
+> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+> The key idea to take away from this discussion is that defining useful
+> channels involves both understanding the applications' requirements and
+> recognizing the limitations of the underlying technology. The challenge
+> is to fill in the gap between what the application expects and what the
+> underlying technology can provide. This is sometimes called the
+> *semantic gap.*
 
 ## Manageability
 
