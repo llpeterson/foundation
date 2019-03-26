@@ -8,10 +8,10 @@ network operators—to help motivate the technical requirements that
 shape how networks are designed and built. This presumes all design
 decisions are purely technical, but of course, that’s usually not the
 case. Many other factors, from market forces, to government policy,
-to ethical considerations, influence how networks are designed and
-built.
+to ethical considerations, also influence how networks are designed
+and built.
 
-Of these, the marketplace is highly influential, and corresponds to
+Of these, the marketplace is the most influential, and corresponds to
 the interplay between network operators (e.g., AT&T, Comcast, Verizon,
 DT, NTT, China Mobile), network equipment venders (e.g., Cisco,
 Juniper, Ericsson, Nokia, Huawei, NEC), application and service
@@ -34,15 +34,17 @@ building the network is largely divorced from the job of operating the
 network. Neither of these assumptions is quite right.
 
 The network’s design is clearly evolving, and we have documented these
-changes with each new edition of the textbook. Doing that on a
-timeline measured in years has historically been good enough, but
-anyone that has downloaded and used the latest smartphone app knows
-how glacially slow anything measured in years is by today’s standards.
+changes with each new edition of the textbook over the years. Doing
+that on a timeline measured in years has historically been good
+enough, but anyone that has downloaded and used the latest smartphone
+app knows how glacially slow anything measured in years is by today’s
+standards. Designing for evolution has to be part of the decision
+making process.
 
 On the second point, the companies that build networks are almost
 always the same ones that operate them. They are collectively known as
 *network operators*, and they include the companies listed above. But
-if we once again look to the cloud for inspiration, we see that
+if we again look to the cloud for inspiration, we see that
 develop-and-operate isn’t true just at the company level, but it is
 also how the fastest moving cloud companies organize their engineering
 teams: around the *DevOps* model. (If you are unfamiliar with DevOps,
@@ -62,7 +64,7 @@ processes that break down barriers between development and operations.
 This transformation is sometimes called the “cloudification” or
 “softwarization” of the network, but by another name, it is known as
 *Software Defined Networks* (SDN). Whatever you call it, this new
-perspective is a game changer, not so much in terms of how we address
+approach is a game changer, not so much in terms of how we address
 the fundamental technical challenges of framing, routing,
 fragmentation/reassembly, packet scheduling, congestion control,
 security, and so on, but in terms of how rapidly the network evolves
@@ -76,5 +78,8 @@ non-technical factors, all of which is a testament to how deeply
 embedded the Internet is in our lives.
 
 > [!NOTE|label:Broader Perspective]
-> To continue learning about the cloudification of the Internet, see
-> [Race to the Edge](../direct/trend.md)
+> To continue reading about the cloudification of the Internet, see
+> [Race to the Edge](../direct/trend.md).
+>
+> To learn more about DevOps, we recommend:
+> * [Site Reliability Engineering: How Google Runs Production Systems](https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X/ref=pd_bxgy_14_img_2/131-5109792-2268338?_encoding=UTF8&pd_rd_i=149192912X&pd_rd_r=4b77155f-234d-11e9-944e-278ce23a35b5&pd_rd_w=qIfxg&pd_rd_wg=12dE2&pf_rd_p=6725dbd6-9917-451d-beba-16af7874e407&pf_rd_r=5GN656H9VEG4WEVGB728&psc=1&refRID=5GN656H9VEG4WEVGB728), 2016.

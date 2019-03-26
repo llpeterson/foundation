@@ -63,9 +63,9 @@ each bit on a 2-Mbps link is 0.5 $$\mu$$s wide, as illustrated in
 [Figure 1](#bit-width). The more sophisticated the transmitting
 and receiving technology, the narrower each bit can become and, thus,
 the higher the bandwidth. For logical process-to-process channels,
-bandwidth is also influenced by other including how many times the
-software that implements the channel has to handle, and possibly
-transform, each bit of data.
+bandwidth is also influenced by other factors, including how many
+times the software that implements the channel has to handle, and
+possibly transform, each bit of data.
 
 <figure class="line">
 	<a id="bit-width"></a>
