@@ -1,14 +1,14 @@
 # {{ page.title }}
 
 Up to this point, we have focused primarily on the functional aspects of
-network. Like any computer system, however, computer networks are also
-expected to perform well. This is because the effectiveness of
-computations distributed over the network often depends directly on the
-efficiency with which the network delivers the computation's data. While
-the old programming adage "first get it right and then make it fast" remains
-true, in networking it is often necessary to "design for performance."
-It is therefore important to understand the various factors that
-impact network performance.
+networks. Like any computer system, however, computer networks are
+also expected to perform well. This is because the effectiveness of
+computations distributed over the network often depends directly on
+the efficiency with which the network delivers the computation's data.
+While the old programming adage "first get it right and then make it
+fast" remains true, in networking it is often necessary to "design for
+performance." It is therefore important to understand the various
+factors that impact network performance.
 
 ## Bandwidth and Latency
 
