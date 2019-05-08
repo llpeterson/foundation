@@ -15,7 +15,7 @@ invented. It is our experience that once you understand the fundamental
 ideas, any new protocol that you are confronted with will be relatively
 easy to digest.
 
-## Perspectives
+## Stakeholders
 
 As we noted above, a student of networks can take several perspectives.
 When we wrote the first edition of this book, the majority of the
@@ -26,10 +26,11 @@ most books at the time, ours focused on the perspective of someone who
 would design networking equipment and protocols. We continue to focus on
 this perspective, and our hope is that after reading this book you will
 know how to design the networking equipment and protocols of the future.
-However, we also want to cover the perspectives of two additional groups
-that are of increasing importance: those who develop networked
-applications and those who manage or operate networks. Let's consider
-how these three groups might list their requirements for a network:
+
+However, we also want to cover the perspectives of two additional
+stakeholders: those who develop networked applications and those who
+manage or operate networks. Let's consider how these three stakeholders
+might list their requirements for a network:
 
 - An *application programmer* would list the services that his or her
     application needs: for example, a guarantee that each message the
@@ -47,10 +48,10 @@ how these three groups might list their requirements for a network:
     utilized and fairly allocated to different users. Issues of
     performance are also likely to be important.
 
-This section attempts to distill these different perspectives into a
-high-level introduction to the major considerations that drive network
-design and, in doing so, identifies the challenges addressed throughout
-the rest of this book.
+This section attempts to distill the requirements of different
+stakeholders into a high-level introduction to the major considerations
+that drive network design and, in doing so, identify the challenges
+addressed throughout the rest of this book.
 
 ## Scalable Connectivity
 
@@ -64,8 +65,6 @@ grow in a way that allows them the potential to connect all the
 computers in the world. A system that is designed to support growth to
 an arbitrarily large size is said to *scale*. Using the Internet as a
 model, this book addresses the challenge of scalability.
-
-### Links, Nodes, and Clouds
 
 To understand the requirements of connectivity more fully, we need to
 take a closer look at how computers are connected in a network.
@@ -424,7 +423,7 @@ with each application selecting the type that best meets its needs. The
 rest of this section illustrates the thinking involved in defining
 useful channels.
 
-### Identifying Common Communication Patterns
+### Identify Common Communication Patterns
 
 Designing abstract channels involves first understanding the
 communication needs of a representative collection of applications, then
@@ -517,7 +516,7 @@ handsets). We will see this question of how various network services are
 partitioned between the packet switches and the end hosts (devices) as a
 recurring issue in network design.
 
-### Reliability
+### Reliable Message Delivery
 
 As suggested by the examples just considered, reliable message delivery
 is one of the most important functions that a network can provide. It is
@@ -591,8 +590,8 @@ introducing a high number of bit errors.
 ## Manageability
 
 A final requirement, which seems to be neglected or left till last all
-too often (as we do here), is that networks need to be
-managed. Managing a network includes making changes as the network
+too often (as we do here), is that networks need to be managed.
+Managing a network includes making changes as the network
 grows to carry more traffic or reach more users, and troubleshooting
 the network when things go wrong or performance isn't as desired.
 
