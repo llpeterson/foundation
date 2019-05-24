@@ -120,7 +120,7 @@ audio and/or video flows in both directions, while a streaming
 application is most likely sending video or audio in only one
 direction.
 
-<figure class="line">
+<figure>
 	<a id="vic"></a>
 	<img src="figures/f01-01-9780123850591.png" width="600px"/>
 	<figcaption>A multimedia application including videoconferencing.</figcaption>

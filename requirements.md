@@ -85,7 +85,7 @@ that multiple-access links are limited in size, in terms of both
 the geographical distance they can cover and the number of nodes
 they can connect.
 
-<figure class="line">
+<figure>
 	<a id="direct"></a>
 	<img src="figures/f01-02-9780123850591.png" width="500px"/>
 	<figcaption>Direct links: (a) point-to-point; (b) multiple-access.</figcaption>
@@ -120,7 +120,7 @@ as a file, a piece of email, or an image. We call each block of data
 either a *packet* or a *message*, and for now we use these terms
 interchangeably.
 
-<figure class="line">
+<figure>
 	<a id="psn"></a>
 	<img src="figures/f01-03-9780123850591.png" width="500px"/>
 	<figcaption>Switched network.</figcaption>
@@ -154,7 +154,7 @@ covered in this book.
 > *cloud computing* by at least a couple of decades, but there is a 
 > connection between these two usages, which we'll discuss later. 
 
-<figure class="line">
+<figure>
 	<a id="internet-cloud"></a>
 	<img src="figures/f01-04-9780123850591.png" width="500px"/>
 	<figcaption>Interconnection of networks.</figcaption>
@@ -255,7 +255,7 @@ about exactly what a "flow of data" corresponds to. For the purposes
 of this discussion, assume that each host on the left has a large
 supply of data that it wants to send to its counterpart on the right.
 
-<figure class="line">
+<figure>
 	<a id="mux"></a>
 	<img src="figures/f01-05-9780123850591.png" width="500px"/>
 	<figcaption>Multiplexing multiple logical flows over a single
@@ -391,7 +391,7 @@ challenge for a network designer is to identify the right set of common
 services. The goal is to hide the complexity of the network from the
 application without overly constraining the application designer.
 
-<figure class="line">
+<figure>
 	<a id="channel"></a>
 	<img src="figures/f01-07-9780123850591.png" width="500px"/>
 	<figcaption>Processes communicating over an abstract channel.</figcaption>

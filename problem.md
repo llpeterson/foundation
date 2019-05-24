@@ -1,9 +1,9 @@
 # {{ page.title }}
 
-## Problem: Building a Network
-
-> I must Create a System, or be enslav'd by another Man's; I will not
+> I must Create a System, or be enslav'd by another Man's; I will not 
 > Reason and Compare: my business is to Create. *—William Blake*
+
+## Problem: Building a Network
 
 Suppose you want to build a computer network, one that has the potential
 to grow to global proportions and to support applications as diverse as

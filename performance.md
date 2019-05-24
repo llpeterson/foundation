@@ -67,7 +67,7 @@ bandwidth is also influenced by other factors, including how many
 times the software that implements the channel has to handle, and
 possibly transform, each bit of data.
 
-<figure class="line">
+<figure>
 	<a id="bit-width"></a>
 	<img src="figures/f01-16-9780123850591.png" width="400px"/>
 	<figcaption>Bits transmitted at a particular bandwidth can be
@@ -140,7 +140,7 @@ unimportant if the image is on the other side of a 1-ms channel or a
 100-ms channel; the difference between a 20.001-second response time
 and a 20.1-second response time is negligible.
 
-<figure class="line">
+<figure>
 	<a id="latency"></a>
 	<img src="figures/f01-17-9780123850591.png" width="600px"/>
 	<figcaption>Perceived latency (response time) versus round-trip
@@ -202,7 +202,7 @@ or approximately 280 KB of data. In other words, this example channel
 (pipe) holds as many bytes as the memory of a personal computer from the
 early 1980s could hold.
 
-<figure class="line">
+<figure>
 	<a id="pipe"></a>
 	<img src="figures/f01-18-9780123850591.png" width="400px"/>
 	<figcaption>Network as a pipe.</figcaption>
@@ -241,9 +241,7 @@ products for some typical network links.
 | Satellite | 1 Gbps | 35,000 km | 230 ms | 230 Mb |
 | Cross-country fiber | 10 Gbps | 4,000 km | 40 ms | 400 Mb |
 
-{% center %}
-*Table 1. Example delay x bandwidth products.*
-{% endcenter %}
+<caption>Table 1. Example delay x bandwidth products.</caption>
 
 ## High-Speed Networks
 
@@ -277,7 +275,7 @@ single packet on a 1-Gbps network. To help drive this point home,
 consider that a 1-MB file is to a 1-Gbps network what a 1-KB *packet*
 is to a 1-Mbps network.
 
-<figure class="line">
+<figure>
 	<a id="bw-lat"></a>
 	<img src="figures/f01-19-9780123850591.png" width="500px"/>
 	<figcaption>Relationship between bandwidth and latency. A 1-MB
@@ -411,7 +409,7 @@ different queuing delays in a multihop packet-switched network. This
 queuing delay corresponds to the component of latency defined earlier
 in this section, which varies with time.
 
-<figure class="line">
+<figure>
 	<a id="jitter"></a>
 	<img src="figures/f01-20-9780123850591.png" width="600px"/>
 	<figcaption>Network-induced jitter.</figcaption>

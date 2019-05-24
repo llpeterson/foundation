@@ -35,7 +35,7 @@ of a channel in the previous section: we were providing an abstraction
 for applications that hides the complexity of the network from
 application writers.
 
-<figure class="line">
+<figure>
 	<a id="layers1"></a>
 	<img src="figures/f01-08-9780123850591.png" width="300px"/>
 	<figcaption>Example of a layered network system.</figcaption>
@@ -76,7 +76,7 @@ supports a message stream service. These two channels might be
 alternative offerings at some level of a multilevel networking system,
 as illustrated in [Figure 2](#layers2).
 
-<figure class="line">
+<figure>
 	<a id="layers2"></a>
 	<img src="figures/f01-09-9780123850591.png" width="300px"/>
 	<figcaption>Layered system with alternative abstractions available
@@ -120,7 +120,7 @@ messages that the protocol exchanges with its peer(s) to implement this
 service (the peer interface). This situation is illustrated in
 [Figure 3](#interfaces).
 
-<figure class="line">
+<figure>
 	<a id="interfaces"></a>
 	<img src="figures/f01-10-9780123850591.png" width="500px"/>
 	<figcaption>Service interfaces and peer interfaces.</figcaption>
@@ -142,7 +142,7 @@ types of process-to-process channels, and both depend on the
 Host-to-Host Protocol (HHP) which provides a host-to-host connectivity
 service.
 
-<figure class="line">
+<figure>
 	<a id="protgraph"></a>
 	<img class="line" src="figures/f01-11-9780123850591.png" width="500px"/>
 	<figcaption>Example of a protocol graph.</figcaption>
@@ -210,7 +210,7 @@ application—is called the message's *body* or *payload*. We say that
 the application's data is *encapsulated* in the new message created by
 RRP.
 
-<figure class="line">
+<figure>
 	<a id="encapsulation"></a>
 	<img src="figures/f01-12-9780123850591.png" width="500px"/>
 	<figcaption>High-level messages are encapsulated inside of low-level messages.</figcaption>
@@ -288,7 +288,7 @@ assigned to a given layer. In this sense, the schematic given in is
 not a protocol graph, *per se*, but rather a *reference model* for a
 protocol graph. It is often referred to as the 7-layer model.
 
-<figure class="line">
+<figure>
 	<a id="osi"></a>
 	<img src="figures/f01-13-9780123850591.png" width="600px"/>
 	<figcaption>The OSI 7-layer model.</figcaption>
@@ -341,13 +341,13 @@ ARPANET were around before the OSI architecture, and the experience
 gained from building them was a major influence on the OSI reference
 model.
 
-<figure class="line">
+<figure>
 	<a id="internet1"></a>
 	<img src="figures/f01-14-9780123850591.png" width="300px"/>
 	<figcaption>Internet protocol graph.</figcaption>
 </figure>
 
-<figure class="line">
+<figure>
 	<a id="internet2"></a>
 	<img src="figures/f01-15-9780123850591.png" width="250px"/>
 	<figcaption>Alternative view of the Internet architecture. The "subnetwork" layer
