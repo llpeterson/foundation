@@ -241,7 +241,9 @@ products for some typical network links.
 | Satellite | 1 Gbps | 35,000 km | 230 ms | 230 Mb |
 | Cross-country fiber | 10 Gbps | 4,000 km | 40 ms | 400 Mb |
 
+<table>
 <caption>Table 1. Example delay x bandwidth products.</caption>
+</table>
 
 ## High-Speed Networks
 
