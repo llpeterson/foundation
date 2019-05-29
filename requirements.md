@@ -591,9 +591,10 @@ introducing a high number of bit errors.
 
 A final requirement, which seems to be neglected or left till last all
 too often (as we do here), is that networks need to be managed.
-Managing a network includes making changes as the network
-grows to carry more traffic or reach more users, and troubleshooting
-the network when things go wrong or performance isn't as desired.
+Managing a network includes upgrading equipment as the network
+grows to carry more traffic or reach more users, troubleshooting
+the network when things go wrong or performance isn't as desired,
+and adding new features in support of new applications.
 
 This requirement is partly related to the issue of scalability discussed
 above—as the Internet has scaled up to support billions of users and
@@ -608,13 +609,18 @@ cost-effective, network operators typically require many management
 tasks to be automated or at least performed by relatively unskilled
 personnel.
 
-An important development in networking since we wrote the first edition
-of this book is that networks in the home are now commonplace. This
-means that network management is no longer the province of experts but
-needs to be accomplished by consumers with little to no special
-training. This is sometimes stated as a requirement that networking
-devices should be "plug-and-play"—a goal that has proven quite
-elusive. We will discuss some ways that this requirement has been
-addressed in part later on, but it is worth noting for now that
-improving the manageability of networks remains an important area of
-current research, if not *the* central challenge in networking today.
+One way to make a network easier to manage is to avoid change. Once
+the network is working, simply *do not touch it!* This mindset exposes
+the fundamental tension between *stability* and *feature velocity*:
+the rate at which new capabilities are introduced into the network.
+Favoring stability is the approach the telecommunications industry
+(not to mention University system administrators and corporate IT
+departments) adopted for many years, making it one of the most
+slow moving and risk adverse industries you will find anywhere. But
+the recent explosion of the cloud has changed that dynamic, making it
+necessary to bring stability and feature velocity more into
+balance. The impact of the cloud on the network is a topic that comes
+up over and over throughout the book, and one we pay particular
+attention to in the *Perspectives* section at the end of each chapter.
+For now, suffice it to say that managing a rapidly evolving network is
+arguably *the* central challenge in networking today.
