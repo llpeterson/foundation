@@ -618,8 +618,8 @@ Favoring stability is the approach the telecommunications industry
 departments) adopted for many years, making it one of the most
 slow moving and risk adverse industries you will find anywhere. But
 the recent explosion of the cloud has changed that dynamic, making it
-necessary to bring stability and feature velocity more into
-balance. The impact of the cloud on the network is a topic that comes
+necessary to bring stability and feature velocity more into balance.
+The impact of the cloud on the network is a topic that comes
 up over and over throughout the book, and one we pay particular
 attention to in the *Perspectives* section at the end of each chapter.
 For now, suffice it to say that managing a rapidly evolving network is
