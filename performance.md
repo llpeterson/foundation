@@ -298,7 +298,7 @@ and latency is to return to basics. The effective end-to-end throughput
 that can be achieved over a network is given by the simple relationship
 
 {% center %}
-TransferTime = TransferSize / TransferTime
+Throughput = TransferSize / TransferTime
 {% endcenter %}
 
 where includes not only the elements of one-way identified earlier in
