@@ -71,7 +71,7 @@ security, and so on, but in terms of how rapidly the network evolves
 to support new features.
 
 This transformation is so important that we take it up again in the
-*Broader Perspective* section at the end of each of chapter. As these
+*Broader Perspective* section at the end of each chapter. As these
 discussions will explore, what happens in the networking industry is
 partly about technology, but also partly about many other
 non-technical factors, all of which is a testament to how deeply

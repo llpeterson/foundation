@@ -246,7 +246,7 @@ products for some typical network links.
 
 ## High-Speed Networks
 
-The seeming continual increase in bandwdith causes network designers
+The seeming continual increase in bandwidth causes network designers
 to start thinking about what happens in the limit or, stated another
 way, what is the impact on network design of having infinite bandwidth
 available.
@@ -312,7 +312,7 @@ TransferTime = RTT + 1/Bandwidth x TransferSize
 We use in this calculation to account for a request message being sent
 across the network and the data being sent back. For example, consider a
 situation where a user wants to fetch a 1-MB file across a 1-Gbps with a
-round-trip time of 100 ms. The includes both the transmit time for 1 MB
+round-trip time of 100 ms. This includes both the transmit time for 1 MB
 (1 / 1 Gbps $$\times$$ 1 MB = 8 ms) and the 100-ms RTT, for a total
 transfer time of 108 ms. This means that the effective throughput will be
 

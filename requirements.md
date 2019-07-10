@@ -10,7 +10,7 @@ existing artifacts as gospel. Instead, we will be asking (and answering)
 the question of *why* networks are designed the way they are. While it
 is tempting to settle for just understanding the way it's done today, it
 is important to recognize the underlying concepts because networks are
-constantly changing as the technology evolves and new applications are
+constantly changing as technology evolves and new applications are
 invented. It is our experience that once you understand the fundamental
 ideas, any new protocol that you are confronted with will be relatively
 easy to digest.
@@ -142,7 +142,7 @@ the nodes on the inside that *implement* the network (they are commonly
 called *switches*, and their primary function is to store and forward
 packets) and the nodes on the outside of the cloud that *use* the
 network (they are traditionally called *hosts*, and they support users and
-run application programs). Also note that the cloud in is one of the
+run application programs). Also note that the cloud is one of the
 most important icons of computer networking. In general, we use a
 cloud to denote any type of network, whether it is a single
 point-to-point link, a multiple-access link, or a switched
@@ -201,7 +201,7 @@ that the source node might want to *broadcast* a message to all the
 nodes on the network. Or, a source node might want to send a message to
 some subset of the other nodes but not all of them, a situation called
 *multicast*. Thus, in addition to node-specific addresses, another
-requirement of a network is that it support multicast and broadcast
+requirement of a network is that it supports multicast and broadcast
 addresses.
 
 > [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
@@ -616,7 +616,7 @@ the rate at which new capabilities are introduced into the network.
 Favoring stability is the approach the telecommunications industry
 (not to mention University system administrators and corporate IT
 departments) adopted for many years, making it one of the most
-slow moving and risk adverse industries you will find anywhere. But
+slow moving and risk averse industries you will find anywhere. But
 the recent explosion of the cloud has changed that dynamic, making it
 necessary to bring stability and feature velocity more into balance.
 The impact of the cloud on the network is a topic that comes

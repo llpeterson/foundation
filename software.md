@@ -4,14 +4,14 @@ Network architectures and protocol specifications are essential things,
 but a good blueprint is not enough to explain the phenomenal success of
 the Internet: The number of computers connected to the Internet has
 grown exponentially for almost 3 decades (although precise numbers are
-now hard to come by). The number of users of the Internet was estimated
+hard to come by). The number of users of the Internet was estimated
 to be around 4.1 billion by the end of 2017—roughly half of the
 world's population.
 
 What explains the success of the Internet? There are certainly many
 contributing factors (including a good architecture), but one thing that
 has made the Internet such a runaway success is the fact that so much of
-its functionality is provided by software running in general-purpose
+its functionality is provided by software running on general-purpose
 computers. The significance of this is that new functionality can be
 added readily with "just a small matter of programming." As a result,
 new applications and services have been showing up at an incredible
@@ -24,7 +24,7 @@ voice samples, digitized images, and so on, this potential was not
 particularly interesting if the computers sending and receiving that
 data were too slow to do anything useful with the information. Virtually
 all of today's computers are capable of playing back digitized audio
-and video at a speed and resolution that are quite useable.
+and video at a speed and resolution that are quite usable.
 
 In the years since the first edition of this book appeared, the writing
 of networked applications has become a much more mainstream activity and

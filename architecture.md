@@ -127,7 +127,7 @@ service (the peer interface). This situation is illustrated in
 </figure>
  
 Except at the hardware level, where peers directly communicate with each
-other over a physical mediuk, peer-to-peer communication is indirect—each
+other over a physical medium, peer-to-peer communication is indirect—each
 protocol communicates with its peer by passing messages to some
 lower-level protocol, which in turn delivers the message to *its* peer.
 In addition, there are potentially more than one protocol at any given
@@ -405,7 +405,7 @@ directly use IP or one of the underlying networks. In fact,
 programmers are free to define new channel abstractions or
 applications that run on top of any of the existing protocols.
 
-Second, if you look closely at the protocol graph in the
+Second, if you look closely at the protocol graph in
 [Figure 7](#internet1), you will notice an hourglass shape—wide at the
 top, narrow in the middle, and wide at the bottom. This shape actually
 reflects the central philosophy of the architecture. That is, IP
