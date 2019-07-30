@@ -204,7 +204,11 @@ some subset of the other nodes but not all of them, a situation called
 requirement of a network is that it supports multicast and broadcast
 addresses.
 
+{% if output.name == "ebook" %}
+> **Key Takeaway**
+{% else %}
 > [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+{% endif %}
 > The main idea to take away from this discussion is that we can define a
 > *network* recursively as consisting of two or more nodes connected by a
 > physical link, or as two or more networks connected by a node. In other
@@ -356,7 +360,11 @@ extended period of time, then the switch will eventually run out of
 buffer space, and some packets will have to be dropped. When a switch
 is operating in this state, it is said to be *congested*.
 
+{% if output.name == "ebook" %}
+> **Key Takeaway**
+{% else %}
 > [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+{% endif %}
 > The bottom line is that statistical multiplexing defines a
 > cost-effective way for multiple users (e.g., host-to-host flows of data)
 > to share network resources (links and nodes) in a fine-grained manner.
@@ -579,7 +587,11 @@ failed computer and one that is merely slow or, in the case of a link,
 between one that has been cut and one that is very flaky and therefore
 introducing a high number of bit errors.
 
+{% if output.name == "ebook" %}
+> **Key Takeaway**
+{% else %}
 > [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+{% endif %}
 > The key idea to take away from this discussion is that defining useful
 > channels involves both understanding the applications' requirements and
 > recognizing the limitations of the underlying technology. The challenge

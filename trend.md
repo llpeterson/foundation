@@ -77,7 +77,11 @@ partly about technology, but also partly about many other
 non-technical factors, all of which is a testament to how deeply
 embedded the Internet is in our lives.
 
+{% if output.name == "ebook" %}
+> **Broader Perspective**
+{% else %}
 > [!NOTE|label:Broader Perspective]
+{% endif %}
 > To continue reading about the cloudification of the Internet, see
 > [Race to the Edge](../direct/trend.md).
 >
