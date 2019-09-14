@@ -322,12 +322,19 @@ not be able to send a complete message in one packet. The source may
 need to fragment the message into several packets, with the receiver
 reassembling the packets back into the original message.
 
+<figure>
+	<a id="statmux"></a>
+	<img src="figures/f01-06-9780123850591.png" width="500px"/>
+	<figcaption>A switch multiplexing packets from multiple sources
+	onto one shared link.</figcaption>
+</figure>
+
 In other words, each flow sends a sequence of packets over the physical
 link, with a decision made on a packet-by-packet basis as to which
 flow's packet to send next. Notice that, if only one flow has data to
 send, then it can send a sequence of packets back-to-back; however,
 should more than one of the flows have data to send, then their packets
-are interleaved on the link. [Figure 4](#mux) depicts a switch
+are interleaved on the link. [Figure 5](#statmux) depicts a switch
 multiplexing packets from multiple sources onto a single shared link.
 
 The decision as to which packet to send next on a shared link can be
@@ -350,7 +357,7 @@ a certain length of time. A network that attempts to allocate
 bandwidth to particular flows is sometimes said to support
 *quality of service* (QoS).
 
-Also, notice in [Figure 4](#mux)
+Also, notice in [Figure 5](#statmux)
 that since the switch has to multiplex three incoming
 packet streams onto one outgoing link, it is possible that the switch
 will receive packets faster than the shared link can accommodate. In
