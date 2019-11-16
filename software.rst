@@ -7,7 +7,7 @@ success of the Internet: The number of computers connected to the
 Internet has grown exponentially for over three decades (although
 precise numbers are hard to come by). The number of users of the
 Internet was estimated to be around 4.1 billion by the end of
-2017—roughly half of the world’s population.
+2018—roughly half of the world’s population.
 
 What explains the success of the Internet? There are certainly many
 contributing factors (including a good architecture), but one thing that
