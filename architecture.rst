@@ -474,6 +474,7 @@ meetings:
    *We reject kings, presidents, and voting. We believe in rough
    consensus and running code.* **(David Clark)**
 
+.. _key-hourglass:
 .. admonition:: Key Takeaway
 
    Of these three attributes of the Internet architecture, the hourglass
@@ -483,4 +484,4 @@ meetings:
    and lower-level communication technologies to coexist, share
    capabilities, and evolve rapidly. The narrow-waisted model is
    critical to the Internet’s ability to adapt rapidly to new user
-   demands and changing technologies.
+   demands and changing technologies. :ref:`[Next] <key-pipe-full>`

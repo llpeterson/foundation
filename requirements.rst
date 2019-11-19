@@ -214,6 +214,7 @@ some subset of the other nodes but not all of them, a situation called
 requirement of a network is that it supports multicast and broadcast
 addresses.
 
+.. _key-nested:
 .. admonition:: Key Takeaway
 
   The main idea to take away from this discussion is that we can
@@ -225,7 +226,8 @@ addresses.
   providing network connectivity are the definition of an address for
   each node that is reachable on the network (including support for
   broadcast and multicast), and the use of such addresses to forward
-  messages toward the appropriate destination node(s).
+  messages toward the appropriate destination node(s). :ref:`[Next]
+  <key-stat-mux>`
 
 Cost-Effective Resource Sharing
 ===============================
@@ -378,6 +380,7 @@ time, then the switch will eventually run out of buffer space, and
 some packets will have to be dropped. When a switch is operating in
 this state, it is said to be *congested*.
 
+.. _key-stat-mux:
 .. admonition:: Key Takeaway
 
   The bottom line is that statistical multiplexing defines a
@@ -388,7 +391,8 @@ this state, it is said to be *congested*.
   switch able to schedule the use of the physical links it is
   connected to on a per-packet basis. Fairly allocating link capacity
   to different flows and dealing with congestion when it occurs are
-  the key challenges of statistical multiplexing.
+  the key challenges of statistical multiplexing. :ref:`[Next]
+  <key-semantic-gap>`
 
 Support for Common Services
 ===========================
@@ -611,6 +615,7 @@ failed computer and one that is merely slow or, in the case of a link,
 between one that has been cut and one that is very flaky and therefore
 introducing a high number of bit errors.
 
+.. _key-semantic-gap:
 .. admonition:: Key Takeaway
 
    The key idea to take away from this discussion is that defining
@@ -618,8 +623,9 @@ introducing a high number of bit errors.
    requirements and recognizing the limitations of the underlying
    technology. The challenge is to fill in the gap between what the
    application expects and what the underlying technology can provide.
-   This is sometimes called the *semantic gap.*
-
+   This is sometimes called the *semantic gap.*  :ref:`[Next]
+   <key-hourglass>`
+   
 Manageability
 =============
 
